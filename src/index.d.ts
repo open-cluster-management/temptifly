@@ -1,4 +1,4 @@
-import { ReactNode } from 'react';
+import { ReactNode } from "react";
 export declare function TemplateEditor(props: {
     type?: string;
     title?: string;
@@ -8,8 +8,8 @@ export declare function TemplateEditor(props: {
     portals?: any[];
     createControl?: {
         createResource: (query: string) => void;
-        cancelCreate: (void) => void;
-        pauseCreate: (void) => void;
+        cancelCreate: () => void;
+        pauseCreate: () => void;
         creationStatus?: string;
         creationMsg?: string;
     };
